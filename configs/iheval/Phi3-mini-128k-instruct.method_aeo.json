@@ -1,0 +1,39 @@
+{
+  "method": "AEO",
+  "status": "ok",
+  "threshold": 0.010785853490233421,
+  "val": {
+    "auc": 93.6706934494545,
+    "fpr95": 20.79646017699115,
+    "n": 604,
+    "pos": 378,
+    "neg": 226,
+    "tp": 360,
+    "fp": 47,
+    "tn": 179,
+    "fn": 18,
+    "tpr": 95.23809523809523,
+    "fpr": 20.79646017699115,
+    "precision": 88.45208845208845,
+    "accuracy": 89.23841059602648
+  },
+  "test": {
+    "auc": 94.10329349130956,
+    "fpr95": 19.558823529411764,
+    "n": 1807,
+    "pos": 1127,
+    "neg": 680,
+    "tp": 1078,
+    "fp": 142,
+    "tn": 538,
+    "fn": 49,
+    "tpr": 95.65217391304348,
+    "fpr": 20.88235294117647,
+    "precision": 88.36065573770492,
+    "accuracy": 89.42999446596569
+  },
+  "checkpoint_path": "checkpoints/iheval/Phi3-mini-128k-instruct.pt",
+  "train_meta_path": "configs/iheval/Phi3-mini-128k-instruct.train_meta.json",
+  "train_time_sec": 10.268810633569956,
+  "best_val_loss": 0.1759891130030155
+}

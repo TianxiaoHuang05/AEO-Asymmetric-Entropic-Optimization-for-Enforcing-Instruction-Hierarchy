@@ -1,0 +1,39 @@
+{
+  "method": "AEO",
+  "status": "ok",
+  "threshold": 0.015737000852823257,
+  "val": {
+    "auc": 94.45721850613154,
+    "fpr95": 23.931623931623932,
+    "n": 602,
+    "pos": 368,
+    "neg": 234,
+    "tp": 350,
+    "fp": 56,
+    "tn": 178,
+    "fn": 18,
+    "tpr": 95.1086956521739,
+    "fpr": 23.931623931623932,
+    "precision": 86.20689655172413,
+    "accuracy": 87.70764119601328
+  },
+  "test": {
+    "auc": 94.89735285871195,
+    "fpr95": 21.47937411095306,
+    "n": 1809,
+    "pos": 1106,
+    "neg": 703,
+    "tp": 1058,
+    "fp": 155,
+    "tn": 548,
+    "fn": 48,
+    "tpr": 95.66003616636529,
+    "fpr": 22.04836415362731,
+    "precision": 87.22176422093982,
+    "accuracy": 88.77833056937534
+  },
+  "checkpoint_path": "checkpoints/iheval/Mistral-7B-Instruct-v0.2.pt",
+  "train_meta_path": "configs/iheval/Mistral-7B-Instruct-v0.2.train_meta.json",
+  "train_time_sec": 10.224234357476234,
+  "best_val_loss": 0.16303254411322995
+}

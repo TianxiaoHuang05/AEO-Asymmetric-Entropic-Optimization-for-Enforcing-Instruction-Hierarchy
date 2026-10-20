@@ -1,0 +1,39 @@
+{
+  "method": "AEO",
+  "status": "ok",
+  "threshold": 0.11595308780670166,
+  "val": {
+    "auc": 94.17980448663616,
+    "fpr95": 17.647058823529413,
+    "n": 602,
+    "pos": 347,
+    "neg": 255,
+    "tp": 330,
+    "fp": 45,
+    "tn": 210,
+    "fn": 17,
+    "tpr": 95.10086455331412,
+    "fpr": 17.647058823529413,
+    "precision": 88.0,
+    "accuracy": 89.70099667774086
+  },
+  "test": {
+    "auc": 93.75614281416107,
+    "fpr95": 20.469361147327252,
+    "n": 1807,
+    "pos": 1040,
+    "neg": 767,
+    "tp": 981,
+    "fp": 144,
+    "tn": 623,
+    "fn": 59,
+    "tpr": 94.32692307692308,
+    "fpr": 18.77444589308996,
+    "precision": 87.2,
+    "accuracy": 88.76591034864416
+  },
+  "checkpoint_path": "checkpoints/iheval/Meta-Llama-3.1-8B-Instruct.pt",
+  "train_meta_path": "configs/iheval/Meta-Llama-3.1-8B-Instruct.train_meta.json",
+  "train_time_sec": 5.780009891837835,
+  "best_val_loss": 0.14356835552571284
+}

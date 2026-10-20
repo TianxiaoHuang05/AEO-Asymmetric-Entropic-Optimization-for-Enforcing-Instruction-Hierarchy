@@ -1,0 +1,39 @@
+{
+  "method": "AEO",
+  "status": "ok",
+  "threshold": 0.002906952053308487,
+  "val": {
+    "auc": 95.22655869728749,
+    "fpr95": 19.71326164874552,
+    "n": 603,
+    "pos": 324,
+    "neg": 279,
+    "tp": 308,
+    "fp": 55,
+    "tn": 224,
+    "fn": 16,
+    "tpr": 95.06172839506173,
+    "fpr": 19.71326164874552,
+    "precision": 84.84848484848484,
+    "accuracy": 88.22553897180762
+  },
+  "test": {
+    "auc": 94.16804623025276,
+    "fpr95": 31.37724550898204,
+    "n": 1808,
+    "pos": 973,
+    "neg": 835,
+    "tp": 900,
+    "fp": 154,
+    "tn": 681,
+    "fn": 73,
+    "tpr": 92.49743062692704,
+    "fpr": 18.44311377245509,
+    "precision": 85.38899430740038,
+    "accuracy": 87.44469026548673
+  },
+  "checkpoint_path": "checkpoints/iheval/Llama-2-7b-chat-hf.pt",
+  "train_meta_path": "configs/iheval/Llama-2-7b-chat-hf.train_meta.json",
+  "train_time_sec": 7.787892231717706,
+  "best_val_loss": 0.13433523396870442
+}

@@ -1,0 +1,7 @@
+backbone,checkpoint,input_dim,feature_order,method_config,train_metadata
+Qwen2.5-1.5B-Instruct,checkpoints/iheval/Qwen2.5-1.5B-Instruct.pt,3072,hd||hd3,configs/iheval/Qwen2.5-1.5B-Instruct.method_aeo.json,configs/iheval/Qwen2.5-1.5B-Instruct.train_meta.json
+Phi-3-mini-128k-instruct,checkpoints/iheval/Phi3-mini-128k-instruct.pt,6144,hd||hd3,configs/iheval/Phi3-mini-128k-instruct.method_aeo.json,configs/iheval/Phi3-mini-128k-instruct.train_meta.json
+Mistral-7B-Instruct-v0.2,checkpoints/iheval/Mistral-7B-Instruct-v0.2.pt,8192,hd||hd3,configs/iheval/Mistral-7B-Instruct-v0.2.method_aeo.json,configs/iheval/Mistral-7B-Instruct-v0.2.train_meta.json
+Llama-2-7B-chat,checkpoints/iheval/Llama-2-7b-chat-hf.pt,8192,hd||hd3,configs/iheval/Llama-2-7b-chat-hf.method_aeo.json,configs/iheval/Llama-2-7b-chat-hf.train_meta.json
+Llama-3.1-8B-Instruct,checkpoints/iheval/Meta-Llama-3.1-8B-Instruct.pt,8192,hd||hd3,configs/iheval/Meta-Llama-3.1-8B-Instruct.method_aeo.json,configs/iheval/Meta-Llama-3.1-8B-Instruct.train_meta.json
+Qwen2.5-14B-Instruct,checkpoints/iheval/Qwen2.5-14B-Instruct.pt,10240,hd||hd3,configs/iheval/Qwen2.5-14B-Instruct.method_aeo.json,configs/iheval/Qwen2.5-14B-Instruct.train_meta.json

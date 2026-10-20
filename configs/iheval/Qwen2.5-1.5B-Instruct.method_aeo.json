@@ -1,0 +1,39 @@
+{
+  "method": "AEO",
+  "status": "ok",
+  "threshold": 0.07929901778697968,
+  "val": {
+    "auc": 96.57935455349248,
+    "fpr95": 11.858974358974358,
+    "n": 602,
+    "pos": 290,
+    "neg": 312,
+    "tp": 277,
+    "fp": 37,
+    "tn": 275,
+    "fn": 13,
+    "tpr": 95.51724137931035,
+    "fpr": 11.858974358974358,
+    "precision": 88.21656050955414,
+    "accuracy": 91.69435215946844
+  },
+  "test": {
+    "auc": 95.7217549665632,
+    "fpr95": 18.463180362860193,
+    "n": 1809,
+    "pos": 872,
+    "neg": 937,
+    "tp": 796,
+    "fp": 108,
+    "tn": 829,
+    "fn": 76,
+    "tpr": 91.28440366972477,
+    "fpr": 11.52614727854856,
+    "precision": 88.05309734513274,
+    "accuracy": 89.82863460475401
+  },
+  "checkpoint_path": "checkpoints/iheval/Qwen2.5-1.5B-Instruct.pt",
+  "train_meta_path": "configs/iheval/Qwen2.5-1.5B-Instruct.train_meta.json",
+  "train_time_sec": 10.248483173549175,
+  "best_val_loss": 0.10427354564890265
+}

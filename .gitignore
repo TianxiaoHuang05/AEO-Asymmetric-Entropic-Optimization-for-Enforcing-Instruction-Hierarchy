@@ -1,0 +1,23 @@
+# Internal and local state
+_internal_audit/
+.env
+*.env
+*.key
+*.pem
+*.token
+# Local environments and caches
+.venv/
+venv/
+__pycache__/
+*.pyc
+.cache/
+# Generated outputs and large private data
+outputs/
+runs/
+logs/
+*.jsonl.tmp
+# Base-model and feature caches must never be committed by default
+models/
+features/
+hidden_states/
+# Keep the explicitly curated detector checkpoints under checkpoints/
